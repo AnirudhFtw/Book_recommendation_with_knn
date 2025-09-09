@@ -23,10 +23,7 @@ The Book-Crossings dataset includes:
 2. **Merging**  
    - Ratings merged with book metadata (`isbn → title`)  
 
-3. **Cleaning**  
-   - Dropped duplicate titles (keeping first occurrence)  
-
-4. **Matrix Creation**  
+3. **Matrix Creation**  
    - Built a **book–user rating matrix** (rows = books, columns = users)  
    - Filled missing values with `0`  
    - Converted to a sparse matrix for efficiency  
